@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.focus_f1 {
+  position: relative;
+  width: 520px;
+  height: 280px;
+  margin: 100px auto;
+  background-color: pink;
+  overflow: hidden;
+}
+
+ul {
+  position: absolute;
+  left: 0;
+  width: 2600px;
+  height: 280px;
+  background-color: black;
+}
+
+.arrow-l,
+.arrow-r {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+}
+
+.arrow-r {
+  position: absolute;
+  top: 130px;
+  right: 0;
+  border-radius: 50% 0 0 50%;
+}
+
+.arrow-l {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  border-radius: 0 50% 50% 0;
+}
+
+.circle {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  background-color: gray;
+  margin-right: 2px;
+  border-radius: 50%;
+}
+
+.circle .current {
+  background-color: orange;
+}
